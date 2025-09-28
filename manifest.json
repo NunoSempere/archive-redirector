@@ -9,16 +9,14 @@
    "background": {
       "service_worker": "background.js"
    },
-   "description": "Sanitize URL before requesting its newest version from archive.today",
+   "description": "Sanitize URL before requesting its newest version from archive.ph",
    "icons": {
       "128": "images/icon128.png",
       "16": "images/icon16.png",
       "48": "images/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkfbFf04lSJDTFR/7I6T9K3X113DIERiZ7V6oVbUXrLZOPXn5PFxc41jVmOUlWZ4EPRBbhuW1/rXHHH75qk1oQ4y/b2sZGpgR+Th9lhaBjtUSTMi7r4eKUHAc7c8x3tJjB7iQrJk3VnN9ZPw2gOjnHU9UdhRZn0qkFDZxNCryVXIiMxr0qyWTF6JADYFpP5z/vZcXgDqQjNRm7wqiXG6+GQouL8FLjX+m1xA4XPVvSg2vPnVYaWMzJgOyAQTLj6kMX1ySk8fwbR4qStas7XKDK9hG6SaklUB14reC3BHWlhC7qyOtkilGxxq2gfssoxp/hpEVNLTrA72nj7u2n/djbwIDAQAB",
    "manifest_version": 3,
-   "name": "Archive.today automator",
+   "name": "Archive.ph automator",
    "permissions": [ "tabs" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.2"
+   "version": "0.3"
 }
