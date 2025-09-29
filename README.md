@@ -1,10 +1,12 @@
 # Archive redirector
 
-This is a Chrome extension that redirects pages to their saved version on archive.ph. It is based on [this extension](https://chromewebstore.google.com/detail/archivetoday-automator/mmhadhnchpgicjlmlcdfaapkekknnkha?hl=en-US), which redirects to an older domain. It is useful to view past versions of pages, but also to view pages accessible to crawlers but not to normal users.
+This is a Chrome extension that redirects pages to their saved version on archive.org / archive.ph. It is based on [this extension](https://chromewebstore.google.com/detail/archivetoday-automator/mmhadhnchpgicjlmlcdfaapkekknnkha?hl=en-US), which redirects to an older domain, but has been expanded to also query archive.org. It is useful to view past versions of pages, but also to view pages accessible to crawlers but not to normal users.
 
 ## Built with
 
 - [Hello world extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
+- Archive.org
+- Archive.is 
 
 ## How to install
 
