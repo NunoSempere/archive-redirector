@@ -7,6 +7,7 @@ This is a Chrome extension that redirects pages to their saved version on archiv
 - [Hello world extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
 - Archive.org
 - Archive.is 
+- [Flat Icon]("https://www.flaticon.com/free-icons/redirect")
 
 ## How to install
 
@@ -29,8 +30,12 @@ Then go to chrome://extensions (respectively brave://extensions) and reload the 
 ## Roadmap
 
 - [ ] Consider publishing it on the [Chrome store](https://developer.chrome.com/docs/webstore/publish)
+  - [x] Register developer account
+  - [ ] Change icons
+  - [ ] Create and upload item
 - [ ] Advertise on Twitter
 - [ ] Consider how to update this extension once published
+- [ ] Consider <https://github.com/wasi-master/13ft>
 
 ## Contributing.
 
