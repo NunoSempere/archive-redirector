@@ -20,14 +20,14 @@ chrome.action.onClicked.addListener(async (tab) => {
   const url = tab.url;
   const strippedUrl = url.split('?')[0];
 
-  const archive_org = await checkArchiveOrg(strippedUrl)
-  if (archive_org.archived){
-    chrome.tabs.update(tab.id, { url: archive_org.url});
-    return
-  }
 
   const archiveUrl = `https://archive.ph/newest/${strippedUrl}`;
   if(!url.includes("https://archive.")){
     chrome.tabs.update(tab.id, { url: archiveUrl });
+  }
+
+  const archive_org = await checkArchiveOrg(strippedUrl)
+  if (archive_org.archived){
+    chrome.tabs.create(tab.id, { url: archive_org.url});
   }
 });
