@@ -12,20 +12,25 @@ This is a Chrome extension that redirects pages to their saved version on archiv
 
 Download this repository as a folder with:
 
-```
-git clone xyz
+```sh
+git clone git@github.com:NunoSempere/archive-redirector.git
 ```
 
-Go to chrome://extensions and click "load unpacked". By design, chrome://extensions is not linkable. In brave, go to brave://extensions. Load this extension. 
+Go to chrome://extensions and click "load unpacked". By design, chrome://extensions is not linkable. In brave, go to brave://extensions. Load this extension. In brave, you can assign a shortcut to this extension on brave://extensions/shortcuts. For instance, I assigned Ctrl+P.
 
-In brave, you can assign a shortcut to this extension on brave://extensions/shortcuts. For instance, I assigned Ctrl+P.
+If you want to get an updated version, navigate to your previous folder 
+
+```sh
+git pull origin master
+```
+
+Then go to chrome://extensions (respectively brave://extensions) and reload the extension.
 
 ## Roadmap
 
-- Consider publishing it on the [Chrome store](https://developer.chrome.com/docs/webstore/publish)
-  - Think about how to update
-- Advertise on twitter
-- Consider how to update this extension
+- [ ] Consider publishing it on the [Chrome store](https://developer.chrome.com/docs/webstore/publish)
+- [ ] Advertise on Twitter
+- [ ] Consider how to update this extension once published
 
 ## Contributing.
 
