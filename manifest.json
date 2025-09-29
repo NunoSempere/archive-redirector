@@ -2,7 +2,7 @@
    "action": {
       "default_icon": {
          "128": "images/icon128.png",
-         "32": "images/icon32.png",
+         "48": "images/icon48.png",
          "16": "images/icon16.png"
       }
    },
@@ -18,5 +18,5 @@
    "manifest_version": 3,
    "name": "Nuno's archive redirector",
    "permissions": [ "tabs" ],
-   "version": "0.5.2"
+   "version": "0.5.3"
 }

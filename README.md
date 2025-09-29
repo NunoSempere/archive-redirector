@@ -1,4 +1,4 @@
-# Archive redirector
+# Nuno's archive redirector
 
 This is a Chrome extension that redirects pages to their saved version on archive.org / archive.ph. It is based on [this extension](https://chromewebstore.google.com/detail/archivetoday-automator/mmhadhnchpgicjlmlcdfaapkekknnkha?hl=en-US), which redirects to an older domain, but has been expanded to also query archive.org. It is useful to view past versions of pages, but also to view pages accessible to crawlers but not to normal users.
 
@@ -40,3 +40,9 @@ Then go to chrome://extensions (respectively brave://extensions) and reload the 
 ## Contributing.
 
 Contributions are welcome. For instance, it might be a good idea to make the archive url generic. 
+
+## See also
+
+- [longnow-for-markdown](https://github.com/NunoSempere/longnow-for-markdown)
+- [Nuño's Stupid Node Version Manager](https://github.com/NunoSempere/nsnvm)
+- [Distribution calculator](https://github.com/NunoSempere/distribution-calculator-android)
