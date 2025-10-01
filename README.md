@@ -7,6 +7,7 @@ This is a Chrome extension that redirects pages to their saved version on archiv
 - [Hello world extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
 - Archive.org
 - Archive.is 
+- google-bot-view.nunosempere.com
 - [Flat Icon]("https://www.flaticon.com/free-icons/redirect")
 
 ## How to install
