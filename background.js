@@ -26,7 +26,7 @@ chrome.action.onClicked.addListener(async (tab) => {
     // previously: chrome.tabs.update(tab.id, { url: xyz });
   }
 
-  const google_bot_view_url = `https://google-bot-view.nunosempere.com/${strippedUrl}`
+  const google_bot_view_url = `https://google-bot-view.nunosempere.com/?url=${strippedUrl}`
   chrome.tabs.create({ url: google_bot_view_url, index: tab.index + 2});
 
   const archive_org = await checkArchiveOrg(strippedUrl)
