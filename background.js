@@ -29,7 +29,6 @@ chrome.action.onClicked.addListener(async (tab) => {
   const google_bot_view_url = `https://google-bot-view.nunosempere.com/${strippedUrl}`
   chrome.tabs.create({ url: google_bot_view_url, index: tab.index + 2});
 
-
   const archive_org = await checkArchiveOrg(strippedUrl)
   if (archive_org.archived){
     chrome.tabs.create({ url: archive_org.url, index: tab.index + 3});
