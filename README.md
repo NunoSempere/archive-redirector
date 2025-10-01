@@ -53,7 +53,7 @@ For instance, I assigned Ctrl+P
   - [x] Await review, <https://chrome.google.com/webstore/devconsole/fde3f718-c986-48da-ae0b-afa8b3d7a6f8>
 - [x] Advertise on Twitter
 - [ ] ~~Consider how to update this extension once published~~
-- [ ] Consider <https://github.com/wasi-master/13ft>
+- [-] Consider <https://github.com/wasi-master/13ft> => was too absurdly bloated, wrote my own [google-bot-view](https://github.com/NunoSempere/google-bot-view)
 
 ## Contributing.
 
